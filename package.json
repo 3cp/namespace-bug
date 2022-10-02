@@ -1,0 +1,12 @@
+{
+  "name": "namespace-bug",
+  "version": "0.0.1",
+  "description": "dts-bundle-generator namespace bug",
+  "scripts": {
+    "build": "dts-bundle-generator -o dist/index.d.ts src/index.ts"
+  },
+  "devDependencies": {
+    "dts-bundle-generator": "^6.13.0",
+    "typescript": "^4.8.4"
+  }
+}
